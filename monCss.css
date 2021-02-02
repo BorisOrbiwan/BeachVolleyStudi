@@ -1,0 +1,19 @@
+/* Sélectionne la première lettre */
+/* d'un élément <p> */
+p.card-text::first-letter {
+    font-size:5.5em;
+    padding-right:0.2em;
+    float:left;
+    color:#333333;
+}
+
+hr {
+    border: none;
+    border-top: 1px double #fff;
+    color: #fff;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    opacity: 1;
+}
+
